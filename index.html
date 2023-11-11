@@ -4,13 +4,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Calculadora de média da livinha</title>
+    <title>Calculadora de média La Salle feita por @livialinno</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
     <script src='calculo.js'></script>
 </head>
 
 <body>
-    <h1>Calculadora de média da livinha</h1>
-    <p>Esta é uma calculadora de média, informe suas notas e obtenha seu resultado.</p>
+    <h1>Calculadora de média La Salle feita por @livialinno</h1>
+    <p> Informe suas notas e obtenha seu resultado:</p>
     <form>
         <label for="nota1">Nota 1</label>
         <input type="number" id="nota1" step="0.01" placeholder="Informe sua nota" required>
@@ -21,7 +22,8 @@
         <label for="nota3">Nota 3</label>
         <input type="number" id="nota3" step="0.01" placeholder="Informe sua nota" required>
 
-        <input type="button" onClick= "calcular()">Calcular</button>
+    <button type="button" onclick="calcular()">Calcular</button>
+
     </form>
 
     <div id="resultado">
